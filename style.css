@@ -1,0 +1,439 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+
+}
+
+.background{
+    width: 100%;
+    height: auto;
+    background-color: rgb(25, 150, 25);
+    padding-inline: 40px;
+    padding-block: 40px;
+}
+
+.main-container{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    padding: 10px;
+}
+
+.nav-bar{
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding-inline: 10px;
+    padding-block: 10px;
+}
+
+.nav-bar h1{
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.nav-bar h1:hover{
+    color:rgb(109, 255, 47) ;
+}
+
+.nav-bar span{
+    margin-left: 25%;
+}
+
+.nav-bar a{
+    color: white;
+    margin-left: 30px;
+    text-decoration: none;
+}
+
+.nav-bar a:hover{
+    color:rgb(109, 255, 47) ;
+}
+
+#green{
+    color: rgb(109, 255, 47);
+    text-decoration: underline 1px solid rgb(109, 255, 47);
+}
+
+.mini-nav{
+    width: 100%;
+    height: auto;
+    padding-inline: 10px;
+    padding-block: 6px;
+    display: flex;
+
+}
+
+.mini-nav p{
+    color:rgb(109, 255, 47) ;
+    margin-left: 20px;
+}
+
+#aero{
+    color: white;
+    margin-left: 50px;
+}
+
+.first-container{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    margin-top: 30px;
+
+}
+
+.first-container h1{
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 30px;
+}
+
+.first-container h1:hover{
+    color:rgb(109, 255, 47) ;
+}
+
+.first-container p{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.second-container{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    margin-top: 30px;
+   display: flex;
+}
+
+.a-part{
+    width: 50%;
+    padding-inline: 40px;
+    padding-block: 20px;
+    display: inline;
+}
+
+.a-part input{
+    width: 500px;
+    padding-block: 15px;
+    padding-inline: 80px;
+    background-color: transparent;
+    color: white;
+    margin-top: 40px;
+    margin-left: 60px;
+    border: 2px solid  rgb(130, 246, 30) ;
+}
+
+#yellow{
+  
+    color: black;
+     background: rgb(9,121,12);
+    background: linear-gradient(90deg, rgba(9,121,12,1) 35%, rgba(255,220,0,1) 100%); 
+    border: 2px solid  rgb(130, 246, 30) ;
+}
+
+.b-part{
+    width: 50%;
+    padding-inline: 40px;
+    padding-block: 20px;
+    display: inline;
+}
+#apple img{
+    width: 20px;
+    margin-right: 150px;
+
+}
+
+#apple{
+  
+    padding-block: 10px;
+    padding-inline: 36px;  
+}
+
+.b-part button{
+     width: 500px;
+    padding-block: 10px;
+    padding-inline: 60px;
+    background-color: transparent;
+    color: white;
+    margin-top: 30px;
+    margin-left: 60px;
+    border: 2px solid  rgb(130, 246, 30) ;
+    display: flex;
+    text-align: center;
+
+}
+
+.b-part button h1{
+    margin-right: 150px;
+    font-size: 20px;
+}
+
+.third-container{
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.third-container a{
+    color: white;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.third-container a:hover{
+    color:rgb(109, 255, 47) ;
+}
+
+.footer-section{
+    width: 100%;
+    height: auto;
+    padding-block: 20px;
+    padding-inline: 10px;
+}
+
+.footer-section h5{
+    color: white;
+    margin-right: 90%;
+   
+}
+
+.footer-section h5:hover{
+    color:rgb(109, 255, 47) ;
+}
+
+.footer-section p{
+    color: white;
+    margin-left: 90%;
+}
+
+.footer-section p:hover{
+    color:rgb(109, 255, 47) ;
+}
+
+@media (max-width: 480px ){
+    *{
+        padding:0;
+        margin:0;
+        box-sizing: border-box;
+    
+    }
+     
+    .main-container{
+        width: 100%;
+        height: auto;
+        background-color: black;
+        padding: 10px;
+    }
+    
+    .nav-bar{
+        width: 100%;
+        height: auto;
+        display: flex;
+        padding-inline: 10px;
+        padding-block: 10px;
+    }
+    
+    .nav-bar h1{
+        color: white;
+        font-size: 50px;
+        margin-left: 35%;
+    }
+    
+    .nav-bar h1:hover{
+        color:rgb(109, 255, 47) ;
+    }
+    
+    .nav-bar span{
+        margin-left: 25%;
+        display: none;
+    }
+    
+    .nav-bar a{
+        color: white;
+        margin-left: 10px;
+        text-decoration: none;
+    }
+    
+    .nav-bar a:hover{
+        color:rgb(109, 255, 47) ;
+    }
+    
+    #green{
+        color: rgb(109, 255, 47);
+        text-decoration: underline 1px solid rgb(109, 255, 47);
+    }
+    
+    .mini-nav{
+        width: 100%;
+        height: auto;
+        padding-inline: 10px;
+        padding-block: 6px;
+        display: flex;
+    
+    }
+    
+    .mini-nav p{
+        color:rgb(109, 255, 47) ;
+        margin-left: 40%;
+    }
+    
+    #aero{
+        color: white;
+        margin-left: 50px;
+    }
+    
+    .first-container{
+        width: 100%;
+        height: auto;
+        padding: 10px;
+        margin-top: 30px;
+    
+    }
+    
+    .first-container h1{
+        color: white;
+        text-align: center;
+        font-size: 60px;
+        margin-top: 30px;
+    }
+    
+    .first-container h1:hover{
+        color:rgb(109, 255, 47) ;
+    }
+    
+    .first-container p{
+        color: white;
+        text-align: center;
+        font-size: 30px;
+        margin-top: 10px;
+    }
+    
+    .second-container{
+        width: 100%;
+        height: auto;
+        padding: 10px;
+        margin-top: 30px;
+       display: inline;
+    }
+    
+    .a-part{
+        width: 100%;
+        padding-inline: 40px;
+        padding-block: 20px;
+        display: inline;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .a-part input{
+        width: 200px;
+        padding-block: 15px;
+        padding-inline: 30px;
+        background-color: transparent;
+        color: white;
+        margin-top: 40px;
+        margin-left: 120px;
+        border: 2px solid  rgb(130, 246, 30) ;
+    }
+    
+    #yellow{
+      
+        color: black;
+         background: rgb(9,121,12);
+        background: linear-gradient(90deg, rgba(9,121,12,1) 35%, rgba(255,220,0,1) 100%); 
+        border: 2px solid  rgb(130, 246, 30) ;
+    }
+    
+    .b-part{
+        width: 100%;
+        padding-inline: 40px;
+        padding-block: 20px;
+        display: inline;
+        align-items: center;
+        justify-content: center;
+    }
+    #apple img{
+        width: 10px;
+        margin-right: 10px;
+        
+    
+    }
+    
+    #apple{
+         
+        padding-block: 14px;
+        padding-inline: 3px;  
+    }
+    
+    .b-part button{
+         width: 200px;
+        padding-block: 10px;
+        padding-inline: 10px;
+        background-color: transparent;
+        color: white;
+        margin-top: 30px;
+        margin-left: 120px;
+        border: 2px solid  rgb(130, 246, 30) ;
+        display: flex;
+        text-align: center;
+    
+    }
+    
+    .b-part button h1{
+        margin-right: 10px;
+        font-size: 20px;
+      
+    }
+    
+    .third-container{
+        width: 100%;
+        text-align: center;
+        margin-top: 40px;
+    }
+    
+    .third-container a{
+        color: white;
+        text-align: center;
+        margin-top: 60px;
+    }
+    
+    .third-container a:hover{
+        color:rgb(109, 255, 47) ;
+    }
+    
+    .footer-section{
+        width: 100%;
+        height: auto;
+        padding-block: 20px;
+        padding-inline: 10px;
+    }
+    
+    .footer-section h5{
+        color: white;
+        margin-right: 90%;
+       
+    }
+    
+    .footer-section h5:hover{
+        color:rgb(109, 255, 47) ;
+    }
+    
+    .footer-section p{
+        color: white;
+        margin-left: 90%;
+    }
+    
+    .footer-section p:hover{
+        color:rgb(109, 255, 47) ;
+    }
+      
+}
+
+
+
+
